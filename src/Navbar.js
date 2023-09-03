@@ -5,8 +5,8 @@ const NavBar = () => {
         <nav className="navbar">
             <h1>Topstars portal</h1>
             <div className="links">
-                <Link to="/">All Entries</Link>
-                <Link to="/create" style={{}}>Create New Entry</Link></div>
+                <Link to="/">All Companies</Link>
+                <Link to="/create" style={{}}>Add company</Link></div>
         </nav>
     );
 }

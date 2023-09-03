@@ -1,9 +1,7 @@
 {
-  "blogs": [
+  "companies": [
     {
-      "title": "location",
-      "body": "1@gmail.com;2@gmail.com",
-      "author": "vivek",
+      "name": "1",
       "id": 1
     }
   ]

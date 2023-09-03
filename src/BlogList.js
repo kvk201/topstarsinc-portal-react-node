@@ -1,20 +1,18 @@
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
-const BlogList = ({ blogs , title }) => {
-
-    return ( 
-        <div className="blog-list">
+const CompanyList = ({ companies, title }) => {
+    return (
+        <div className="company-list">
             <h2>{title}</h2>
-            {blogs.map((blog)=>(
-                <div className="blog-preview" key={blog.id}>
-                    <Link to={`/blogs/${blog.id}`}>
-                        <h2>{blog.title}</h2>
-                        <p>written by: {blog.author}</p>
+            {companies.map((company) => (
+                <div className="company-preview" key={company.id}>
+                    <Link to={`/companies/${company.id}`}>
+                        <h2>{company.name}</h2>
                     </Link>
                 </div>
-                ))}
+            ))}
         </div>
-      );
+    );
 }
- 
-export default BlogList;
+
+export default CompanyList;
