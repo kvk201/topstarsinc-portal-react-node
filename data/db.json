@@ -1,8 +1,61 @@
 {
   "companies": [
     {
-      "name": "1",
-      "id": 1
+      "name": "Company A",
+      "locations": [
+        {
+          "city": "City 1",
+          "recruiters": [
+            {
+              "name": "Recruiter 1",
+              "email": "recruiter1@example.com"
+            },
+            {
+              "name": "Recruiter 2",
+              "email": "recruiter2@example.com"
+            },
+            {
+              "name": "Recruiter 3",
+              "email": "recruiter3@example.com"
+            }
+          ]
+        },
+        {
+          "city": "City 2",
+          "recruiters": [
+            {
+              "name": "Recruiter 4",
+              "email": "recruiter4@example.com"
+            },
+            {
+              "name": "Recruiter 5",
+              "email": "recruiter5@example.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Company B",
+      "locations": [
+        {
+          "city": "City 3",
+          "recruiters": [
+            {
+              "name": "Recruiter 6",
+              "email": "recruiter6@example.com"
+            },
+            {
+              "name": "Recruiter 7",
+              "email": "recruiter7@example.com"
+            },
+            {
+              "name": "Recruiter 8",
+              "email": "recruiter8@example.com"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
