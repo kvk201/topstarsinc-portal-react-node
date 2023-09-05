@@ -20,6 +20,7 @@
   
 }
 .navbar .links {
+  /* this shoots the links to the right */
   margin-left: auto;
 }
 .navbar a {
