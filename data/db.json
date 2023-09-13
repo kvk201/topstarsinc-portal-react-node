@@ -36,6 +36,41 @@
       ]
     },
     {
+      "name": "Company A",
+      "locations": [
+        {
+          "city": "City 1",
+          "recruiters": [
+            {
+              "name": "Recruiter 1",
+              "email": "recruiter1@example.com"
+            },
+            {
+              "name": "Recruiter 2",
+              "email": "recruiter2@example.com"
+            },
+            {
+              "name": "Recruiter 3",
+              "email": "recruiter3@example.com"
+            }
+          ]
+        },
+        {
+          "city": "City 2",
+          "recruiters": [
+            {
+              "name": "Recruiter 4",
+              "email": "recruiter4@example.com"
+            },
+            {
+              "name": "Recruiter 5",
+              "email": "recruiter5@example.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Company B",
       "locations": [
         {
